@@ -18,7 +18,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: wrist_location_production
   pool: 5
-  username: matthewharrilal
-  password: 
+  database: <%= ENV['postgres://wlqlhlvpecthdu:7fa38e247a7452bc2d5df85b185172e20991bd5b4e99dd85e7c40ffee8e5e6ec@ec2-54-221-212-15.compute-1.amazonaws.com:5432/ddo3tmdgrivg3s'] %>
+  username: <%= ENV['matthewharrilal@gmail.com'] %>
+  password: <%= ENV['Latchman1'] %>
